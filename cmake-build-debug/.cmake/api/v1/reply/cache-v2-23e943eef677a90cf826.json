@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/clionpr/SD/untitled/cmake-build-debug"
+			"value" : "c:/Users/Ciprian/Documents/GitHub/SD-lab1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clionpr/SD/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Ciprian/Documents/GitHub/SD-lab1/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/clionpr/SD/untitled"
+			"value" : "C:/Users/Ciprian/Documents/GitHub/SD-lab1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1275,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clionpr/SD/untitled/cmake-build-debug"
+			"value" : "C:/Users/Ciprian/Documents/GitHub/SD-lab1/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clionpr/SD/untitled"
+			"value" : "C:/Users/Ciprian/Documents/GitHub/SD-lab1"
 		}
 	],
 	"kind" : "cache",

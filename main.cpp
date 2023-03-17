@@ -5,7 +5,7 @@ using namespace std::chrono;
 using namespace std;
 void fisier(int dim)
 {
-    ofstream fout("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab\\nr2.txt");
+    ofstream fout("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab1\\nr2.txt");
 
     srand(time(0));
     for (int i=0; i<dim; i++)
@@ -182,7 +182,7 @@ int main() {
     fisier(dim);
 
     ///Radix
-    ifstream fin("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab\\nr2.txt");
+    ifstream fin("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab1\\nr2.txt");
     for(int i=0; i<dim; i++)
         fin>>arr[i];
     fin.close();
@@ -194,7 +194,7 @@ int main() {
     cout<<"\n"<<"radix :"<<duration.count()/1000.0;
 
     ///Merge
-    fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab\\nr2.txt");
+    fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab1\\nr2.txt");
     for(int i=0; i<dim; i++)
         fin>>arr[i];
     fin.close();
@@ -206,7 +206,7 @@ int main() {
     cout<<"\n"<<"Merge :"<<duration.count()/1000.0;
 
     ///Shell
-    fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab\\nr2.txt");
+    fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab1\\nr2.txt");
     for(int i=0; i<dim; i++)
         fin>>arr[i];
     fin.close();
@@ -220,7 +220,7 @@ int main() {
     ///Quick
     if(dim < 1e8)
     {
-        fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab\\nr2.txt");
+        fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab1\\nr2.txt");
         for(int i=0; i<dim; i++)
             fin>>arr[i];
         fin.close();
@@ -236,7 +236,7 @@ int main() {
 
 
     ///Ins
-    fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab\\nr2.txt");
+    fin.open("C:\\Users\\Ciprian\\Documents\\GitHub\\SD-lab1\\nr2.txt");
     for(int i=0; i<dim; i++)
         fin>>arr[i];
     fin.close();
